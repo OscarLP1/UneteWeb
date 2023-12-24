@@ -1,0 +1,14 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/app.css">
+
+<div class="flex-container">
+    <div class="container">
+        <h1>UNETE</h1>
+        <p class="lead">Ingresa tu correo para registrarte, <strong><%= data %></strong> clientes en nuestra lista de espera
+			.</p>
+        <form method="POST" action='/register'>
+            <input type="text" name="email" class="form" placeholder="ingresa tu correo">
+            <button>Unirse</button>
+        </form>
+    </div>
+</div>
